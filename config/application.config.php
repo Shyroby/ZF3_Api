@@ -64,5 +64,29 @@ return [
 
     // Initial configuration with which to seed the ServiceManager.
     // Should be compatible with Zend\ServiceManager\Config.
-    // 'service_manager' => [],
+    // 'service_manager' => [
+    //        'services' => [
+    //            // Register service class instances here
+    //            //...
+    //        ],
+    //        'invokables' => [
+    //            // Register invokable classes here
+    //            //...
+    //        ],
+    //        'factories' => [
+    //            // Register factories here
+    //            //...
+    //        ],
+    //        'abstract_factories' => [
+    //            // Register abstract factories here
+    //            //...
+    //        ],
+    //        'aliases' => [
+    //            // Register service aliases here
+    //            //...
+    //        ],
+    //        'shared' => [
+    //            // Specify here which services must be non-shared
+    //        ]
+    //  ],
 ];
